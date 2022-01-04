@@ -1,7 +1,6 @@
 // const x = [];
-const x = ""
-if(x){
-    console.log("TRUE");
-}else{
-    console.log("FALSE");
-}
+let x = ""
+console.log("1. " + Boolean(x))
+
+x = []
+console.log("2. " + Boolean(x))

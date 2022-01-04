@@ -16,6 +16,10 @@ function main03() {
       return newObj;
   })
   console.log(mapNames);
+
+  let x;
+  const z = {};
+  console.log(z[x]);
 }
 
 main03();
